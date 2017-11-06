@@ -1,0 +1,20 @@
+.submitbtn {
+    border: none;
+    /* cor oficial movelmar #f26651 */
+    background: #f26651;  
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 3px 0 #a72121;
+    padding: 10px 25px;
+    width: 200px;
+}
+.submitbtn:hover {
+    background: #e04735;
+    box-shadow: 0 3px 0 #6f1212;
+    color: #fff;
+}
+.submitbtn:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}

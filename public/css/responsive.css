@@ -1,0 +1,1206 @@
+@media screen and (max-width: 1820px){
+    .inner-header .container-right .bottom li a, .fixed .main-header .container-right .bottom li a{
+        letter-spacing: 0.1em;
+    }
+}
+
+@media screen and (max-width: 1760px){
+    .inner-header .container-right .bottom nav, .fixed .main-header .container-right .bottom nav{
+        padding: 0 70px;
+    }
+    .fixed .submenu-scroll {
+        padding: 0 70px;
+    }
+}
+
+@media screen and (max-width: 1530px){
+    .inner-header .container .container-left, .fixed .main-header .container .container-left {
+        width: 25%;
+    }
+    .inner-header .container .container-right, .fixed .main-header .container .container-right{
+        width: 75%;
+    }
+    .home-products li p{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    .home-blog .container li figure {
+        height: 230px;
+    }
+    .home-blog .container li .date .box,
+    .blog-inner .container .date .box, .blog .container .date .box {
+        padding: 10px;
+    }
+    .home-blog .container .box .day,
+    .blog-inner .container .box .day, .blog .container .box .day {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 5px;
+    }
+    .home-blog .container li .text h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .home-blog .container li .text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .info .next-buy {
+        padding: 100px;
+    }
+    .info .container-left {
+        padding: 70px;
+    }
+    .blog-inner .container .date, .blog .container .date{
+        padding-right: 30px;
+    }
+    .blog-inner .container .text, .blog .container .text{
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .main-header .container-left .logo{
+        width: 350px;
+    }
+    .main-header .container-left .logo a{
+        width: 280px;
+    }
+    .main-header .container-right .bottom li a{
+        letter-spacing: 0.12em;
+    }
+    .home-banner,
+    .mask-home,
+    .home-banner .gallery {
+        height: 1050px;
+    }
+    .home-banner .text-center{
+        padding-top: 350px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .main-header .container-right .bottom li a{
+        letter-spacing: 0.1em;
+        font-size: 16px;
+    }
+    .main-header .container-right .top li a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .main-header .container{
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    .home-banner .text-center{
+        margin-left: 65px;
+    }
+    .home-banner .button-float{
+        bottom: 65px;
+    }
+    .home-blog .container{
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    .home-about .text .container {
+        padding: 65px;
+    }
+    footer .container{
+        padding: 65px;
+    }
+    .about-gallery .text .container {
+        padding: 65px;
+    }
+    .about-partners .container{
+        padding: 65px;
+    }
+    .info .container-left {
+        padding: 65px;
+    }
+    .info .next-buy{
+        padding: 65px;
+    }
+    .product-banner .text-center{
+        padding-left: 65px;
+    }
+    .product-description .container {
+        padding: 65px;
+    }
+    .blog-inner .container ,
+    .blog .container {
+        padding: 65px;
+    }
+    .two-cols .container-left .container{
+        padding: 65px;
+    }
+    .order-page .container{
+        padding: 50px 65px;
+    }
+    .inner-header .container-right .bottom li a, .fixed .main-header .container-right .bottom li a {
+        letter-spacing: 0.1em;
+        font-size: 16px;
+    }
+    footer .copyright{
+        padding: 50px 65px 115px;
+    }
+
+    .about-movelmar .container-left .text {
+
+        padding: 80px 65px 80px 65px;
+        position: relative;
+        width: 100%;
+    }
+    .info .container-left .logista {
+        padding-right: 30px;
+    }
+    .info .container-left .representatives{
+        padding-left: 30px;
+    }
+
+    .home-products li:hover h2{
+        margin-top: 120px;
+    }
+    .home-products li:hover .button-white{
+        margin-top: 80px;
+    }
+    .lojista .place li h3{
+        color: #214053;
+       font-size: 26px;
+       font-weight: 400;
+       line-height: 36px;
+       margin-bottom: 20px;
+       text-transform: uppercase;
+    }
+    .lojista .place li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .arrows{
+        right: 60px;
+        top: 300px
+    }
+    .home-banner .button-float{
+        right: 60px;
+    }
+    .home-banner, .mask-home, .home-banner .gallery, .product-banner, .product-banner .gallery, .product-banner #gallery, .product-banner #gallery .scroll-content figure, .product-banner .mask {
+        height: 900px;
+    }
+    .product-banner .text-center{
+        padding-top: 400px;
+    }
+    .product-banner .text-center h2{
+        font-size: 65px;
+    }
+    .product-banner .mask{
+        width: 600px;
+    }
+    .home-banner .text-center {
+        padding-top: 200px;
+        padding-left: 60px;
+        margin-left: 0;
+        box-sizing: border-box;
+        padding-right: 150px;
+    }
+    .home-banner .text-center h2 {
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 40px;
+    }
+    .home-banner .text-center p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .home-products li{
+        width: 50%;
+    }
+    .home-products li:last-child {
+        display: block;
+    }
+    .products li {
+        height: 600px;
+    }
+    .about-movelmar .link nav {
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+    .info .container-left{
+        width: 100%;
+    }
+    .info .next-buy{
+        width: 100%;
+    }
+    .info .container-left .logista{
+        width: 50%;
+    }
+    .two-cols .container-right .text {
+        padding: 50px 30px;
+        width: 100%;
+    }
+    .two-cols .container-right .text h3 {
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .blog-inner .container, .blog .container{
+        padding: 60px 40px;
+    }
+    .blog-inner .container .post-container .gallery, .blog-inner .container .post-container .figure, .blog .container .posts-container figure{
+        height: 450px;
+    }
+    .blog-inner #gallery, .blog-inner #gallery .scroll-content figure{
+         height: 500px !important;
+    }
+    .blog-inner .container .other-info h2, .blog .container .other-info h2 {
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    .other-info .form-container .buscar_button,
+    .form-container .input .buscar{
+        height: 50px;
+    }
+    .blog-inner .other-info .list-category li a, .blog .other-info .list-category li a{
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    .blog-inner .container .other-info, .blog .container .other-info{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .two-cols.lojista .container-left .container {
+        box-sizing: border-box;
+        padding: 100px 60px 60px;
+        width: 100%;
+    }
+    .main-header .container-left .logo a{
+        width: 220px;
+    }
+    .main-header .container-left .logo {
+        width: 280px;
+    }
+
+
+    /*MENU RESPONSIVO!!!*/
+    .inner-header .container-right .bottom nav ul.list-menu, .fixed .main-header .container-right .bottom nav ul.list-menu{
+        display: block;
+    }
+    .inner-header .container .container-left, .fixed .main-header .container .container-left{
+        width: 15%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .inner-header .container-left .logo a, .fixed .main-header .container-left .logo a, .fixed .main-header .container-left .logo{
+        width: 100%;
+        background-size: contain;
+    }
+    .inner-header .container .container-right, .fixed .main-header .container .container-right{
+        width: 85%;
+    }
+    .open-menu .inner-header .container .container-left, .open-menu.fixed .main-header .container .container-left{
+        width: 15%;
+        padding: 0 10px;
+        box-sizing: border-box;
+        display: none;
+    }
+    .open-menu .inner-header .container .container-right, .open-menu.fixed .main-header .container .container-right{
+        width: 100%;
+    }
+    .open-menu .inner-header .container-right .bottom nav ul.list-menu, .open-menu.fixed .main-header .container-right .bottom nav ul.list-menu{
+        display: block;
+        width: 90%;
+        margin-bottom: 0;
+        display: inline-table;
+    }
+    .fixed .submenu-scroll {
+        margin-top: 70px;
+    }
+    .main-header .products-button{
+        height: auto;
+    }
+    .inner-header .container-right .bottom nav li, .fixed .main-header .container-right .bottom nav li{
+        margin-right: 15px;
+    }
+    .fixed .submenu-scroll, .inner-header .submenu-scroll{
+        top: auto;
+        position: relative;
+        width: 100%;
+    }
+    .inner-header .container-right .bottom nav, .fixed .main-header .container-right .bottom nav{
+        padding: 0 30px;
+    }
+    .fixed .submenu-scroll {
+        margin-top: 70px;
+    }
+    .fixed .submenu-scroll {
+        padding: 0px;
+    }
+    .fixed.open-menu .submenu-scroll .three-coll, .open-menu .submenu-scroll .three-coll {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .fixed.open-menu .main-header .container-right .submenu-scroll .products-container, .fixed.open-menu .submenu-scroll .three-coll, .open-menu .inner-header .container-right .submenu-scroll .products-container, .open-menu .submenu-scroll .three-coll{
+        max-width: 100%;
+    }
+    .fixed .submenu-scroll{
+        margin-top: 0;
+    }
+    .fixed.open-menu .main-header .container-right .submenu-scroll .products-container, .open-menu .inner-header .container-right .submenu-scroll .products-container{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .home-about .text, .about-gallery .text {
+        width: 40%;
+    }
+    .home-about .video-about, .about-gallery .figure-aside {
+        width: 60%;
+    }
+    .home-about .text .container,
+    .about-gallery .text .container {
+        padding: 40px;
+    }
+    .home-about .text .container h2,
+    .about-gallery .text .container h2 {
+        font-size: 42px;
+    }
+    footer .container .about-us h2,
+    footer .container .home-footer h2,
+    footer .container .product-footer h2 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .about-partners li figure{
+        max-width: 150px;
+    }
+    .two-cols .container-left{
+        width: 60%;
+    }
+    .two-cols .container-right{
+        width: 40%;
+    }
+    .lojista .select-place .state {
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 350px;
+    }
+    .lojista .select-place .city {
+        padding-left: 0;
+        width: 100%;
+        max-width: 350px;
+    }
+    .lojista .container-left .container .select-place{
+        margin-bottom: 60px;
+    }
+    .lojista .place li{
+        width: 100%;
+        padding: 0 !important;
+    }
+    .two-cols .container-left h2{
+        font-size: 38px;
+    }
+    .form-container .input.double {
+        padding-right: 15px;
+    }
+    .form-container .input.double:nth-child(2n) {
+        padding-left: 15px;
+    }
+    .order-page .container .container-right .text {
+        padding: 60px 30px;
+        width: 100%;
+    }
+    .order-page .container .container-right {
+        width: 100%;
+    }
+    .order-page .container .container-left{
+        width: 100%;
+        height: 350px !important;
+    }
+    .order-page .container .container-left iframe{
+        width: 100%;
+        height: 350px !important;
+    }
+    .form-container .input label, .form-container .textarea label{
+        font-size: 16px;
+    }
+    .form-container .input input, .form-container .input select, .form-container textarea{
+        font-size: 20px;
+    }
+    .form-container .input input, .form-container .input select, .form-container textarea{
+        height: 50px;
+    }
+    .home-blog .container li:last-child{
+        display: none;
+    }
+    .home-blog .container li{
+        width: 48%;
+        margin: 0;
+        margin-right: 2%;
+    }
+    .home-blog .container li:nth-child(2){
+        width: 48%;
+        margin: 0;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 1160px){
+    .main-header .menu-icon{
+        display: block;
+    }
+    .main-header .container-right .bottom nav ul.list-menu,
+    .main-header .container-right .top {
+        display: none;
+    }
+}
+@media screen and (max-width: 1150px){
+    .main-header .container-left{
+        width: 25%;
+        box-sizing: border-box;
+    }
+    .main-header .container-right{
+        width: 75%;
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    .main-header .container-left .logo{
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+    .main-header .container-left .logo a{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1050px){
+    footer .container .social{
+        display: none;
+    }
+    footer .container .about-us {
+        float: left;
+        width: 40%;
+    }
+    footer .container .home-footer {
+        float: left;
+        width: 30%;
+    }
+    footer .container .product-footer {
+        float: left;
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1050px){
+    .about-movelmar .container-left {
+        width: 100%;
+        height: auto !important;
+    }
+    .about-movelmar .link {
+        height: auto !important;
+        width: 100%;
+    }
+    .about-movelmar .link nav{
+        padding: 60px;
+    }
+    .about-movelmar .link ul li:last-child{
+        margin-bottom: 0;
+    }
+    .blog-inner .container .post-container .gallery, .blog-inner .container .post-container .figure, .blog .container .posts-container figure{
+        height: 350px;
+    }
+    .blog-inner #gallery, .blog-inner #gallery .scroll-content figure{
+         height: 400px !important;
+    }
+    .blog-inner .container .text h2, .blog .container .text h2 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .blog-inner .container .text p, .blog .container .text p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .blog-inner .container .post-container, .blog .container .posts-container{
+        width: 100%;
+    }
+    .blog-inner .container .other-info, .blog .container .other-info{
+        width: 100%;
+        padding-left: 0;
+        max-width: 600px;
+    }
+    .other-info .form-container, .other-info .form-container .input{
+        max-width: 400px;
+    }
+    .home-blog .container .button-right .button-navy {
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+}
+@media screen and (max-width: 970px){
+    /*MENU RESPONSIVO!!!*/
+    .inner-header .container-right .bottom nav ul.list-menu, .fixed .main-header .container-right .bottom nav ul.list-menu{
+        display: none;
+    }
+    .fixed.open-menu .main-header .container-right .submenu-scroll .products-container, .open-menu .inner-header .container-right .submenu-scroll .products-container{
+        display: none;
+    }
+    .inner-header .container-right .bottom nav .list-menu li, .fixed .main-header .container-right .bottom nav .list-menu li{
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .fixed.open-menu .submenu-scroll .three-coll, .open-menu .submenu-scroll .three-coll{
+        margin-top: 60px;
+    }
+    .fixed.open-menu .submenu-scroll .three-coll .coll.buttons-menu a, .open-menu .submenu-scroll .three-coll .coll.buttons-menu a{
+        font-size: 16px;
+    }
+    .inner-header .container .container-right, .fixed .main-header .container .container-right, .menu-icon{
+        height: 75px;
+    }
+    .menu-icon{
+        background-size: 40px;
+    }
+
+    .inner-header .container-left .logo a, .fixed .main-header .container-left .logo a,
+    .inner-header .container .container-left, .fixed .main-header .container .container-left,
+    .fixed .main-header .container-left .logo{
+        height: 75px;
+        line-height: 75px;
+    }
+    .inner-header .container .container-left, .fixed .main-header .container .container-left{
+        width: 25%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .inner-header .container .container-right, .fixed .main-header .container .container-right{
+        width: 75%;
+    }
+    .open-menu .inner-header .container .container-left, .open-menu.fixed .main-header .container .container-left{
+        display: none;
+    }
+    .open-menu .inner-header .container .container-right, .open-menu.fixed .main-header .container .container-right{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 900px){
+    .button-white {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 60px;
+        padding: 15px 25px;
+    }
+    .arrows {
+        right: 30px;
+    }
+    .home-banner .button-float {
+        right: 30px;
+    }
+    .home-banner .button-float .button-navy{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 20px 25px;
+        text-transform: uppercase;
+    }
+    .home-about .text {
+        width: 50%;
+    }
+    .home-about .video-about {
+        width: 50%;
+    }
+    .home-about .text .container {
+        padding: 60px 30px;
+    }
+    .info .container-left .logista h3, .info .container-left .representatives h3{
+          font-size: 26px;
+          margin: 30px auto 20px;
+    }
+    .info .container-left .representatives p{
+        font-size: 16px;
+    }
+    .info .container-left .logista p{
+        font-size: 16px;
+    }
+    .button-blue{
+        font-size: 18px;
+        max-width: 250px;
+        padding: 20px 0;
+    }
+    .two-cols .container-right .text a.mail{
+        font-size: 14px;
+    }
+    footer .container .about-us{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .container .about-us p{
+        max-width: 100%;
+    }
+    footer .container .home-footer,
+    footer .container .product-footer{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 900px){
+    .home-products li p {
+        display: none;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 30px;
+    }
+    .find .container h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .find{
+         padding: 80px 30px;
+    }
+    .home-about .text, .about-gallery .text {
+        width: 100%;
+    }
+    .home-about .video-about{
+        width: 100%;
+        height: 400px !important;
+    }
+     .about-gallery .figure-aside{
+         height: auto !important;
+         width: 100%;
+     }
+     .blog-inner #gallery, .blog-inner #gallery .scroll-content figure{
+          height: 470px !important;
+     }
+    .home-about .text .container, .about-gallery .text .container {
+        padding: 60px 30px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    footer .container .about-us h2, footer .container .home-footer h2, footer .container .product-footer h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .products li{
+        width: 100%;
+    }
+
+
+    .product-banner .text-center h2{
+        font-size: 55px;
+    }
+    .product-banner .mask{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 800px){
+    .home-products li{
+        width: 100%;
+    }
+    .home-products li{
+        height: 550px;
+    }
+    .home-products .button-white{
+        bottom: 60px;
+    }
+    .home-products li h2{
+        margin-top: 220px;
+    }
+    .find .container .button-white {
+        margin-right: 30px;
+        padding: 15px 30px;
+    }
+    .about-movelmar .container-left .text,
+    .about-movelmar .link nav {
+        padding: 60px 30px;
+    }
+    .info .container-left{
+        padding: 60px 30px;
+    }
+    .info .next-buy{
+        padding: 60px 30px;
+    }
+    .two-cols.lojista .container-left .container{
+        padding: 60px 30px;
+    }
+    .two-cols .container-left .container{
+        padding: 60px 30px;
+    }
+    .order-page .container{
+        padding: 60px 30px;
+    }
+    footer .container {
+        padding: 60px 30px;
+    }
+    .home-blog .container{
+        padding: 60px 30px;
+    }
+    .product-description .container{
+        padding: 60px 30px;
+    }
+    .about-partners .container{
+        padding: 60px 30px;
+    }
+    .blog-inner .container, .blog .container{
+        padding: 40px 30px;
+    }
+    footer .copyright{
+        padding: 30px;
+    }
+    .about-banner .text-center{
+        padding-left: 30px;
+    }
+    .product-banner .text-center{
+        padding-left: 30px;
+    }
+    .main-header .container{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .home-banner .text-center {
+        padding-left: 30px;
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width: 700px){
+    .two-cols .container-left{
+        width: 100%;
+        height: auto !important;
+    }
+    .two-cols .container-right{
+        width: 100%;
+        height: auto !important;
+    }
+    .two-cols .container-right .maps, .two-cols .container-right .maps figure{
+        height: 400px;
+    }
+    .blog-inner .container .date, .blog .container .date{
+        padding-right: 10px;
+    }
+    .blog-inner .container .text, .blog .container .text{
+        padding: 0 10px 0 15px;
+    }
+    .blog-inner .container .tags, .blog .container .tags {
+        margin-bottom: 15px;
+    }
+    .blog-inner .container .post-description, .blog .container .post-description {
+        margin-top: 25px;
+    }
+    .post.featured .pin {
+        bottom: -20px;
+        height: 45px;
+        right: 30px;
+        width: 45px;
+    }
+    .blog-inner .container .text p, .blog .container .text p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .blog-inner .container .post-container .gallery, .blog-inner .container .post-container .figure, .blog .container .posts-container figure {
+        height: 300px;
+    }
+    .blog-inner #gallery, .blog-inner #gallery .scroll-content figure{
+         height: 350px !important;
+    }
+    .blog-inner .container .tags a, .blog .container .tags a{
+        font-size: 14px;
+    }
+    .blog-inner .container .icon-pasta, .blog .container .icon-pasta{
+        margin-right: 10px;
+    }
+    .blog-inner .container .share h3{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    footer .copyright .text-left{
+        width: 100%;
+        margin-bottom: 25px;
+        float: none;
+    }
+    footer .copyright .avalanche{
+        float: none;
+        position: relative;
+    }
+    .home-blog .container li .text{
+        padding-left: 15px;
+    }
+    .home-blog .container li{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    .home-blog .container li:nth-child(2) {
+        margin: 0;
+        width: 100%;
+    }
+    .home-blog .container li figure {
+        height: 350px;
+    }
+    .home-blog .container .button-right {
+        float: none;
+        margin-top: 15px;
+    }
+    .home-blog .container header .title-left{
+        float: none;
+    }
+    .home-blog .container header h2{
+        margin-bottom: 25px;
+    }
+    .home-banner .text-center h2 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .home-banner .text-center p {
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+    .home-banner .button-float .button-navy {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 15px 25px;
+    }
+    .main-header .container-left{
+        width: 40%;
+    }
+    .main-header .container-right {
+        padding-left: 15px;
+        width: 60%;
+    }
+    .about-banner,
+    .about-banner .mask{
+        height: 450px;
+    }
+    .about-banner .text-center {
+        padding-top: 250px;
+    }
+    .about-banner .text-center h2{
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 650px){
+    .info .container-left .representatives{
+        padding-left: 0;
+        width: 100%;
+    }
+    .info .container-left .logista{
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .fixed.open-menu .submenu-scroll .three-coll .coll, .open-menu .submenu-scroll .three-coll .coll{
+        width: 50%;
+    }
+    fixed.open-menu .submenu-scroll .three-coll .coll.buttons-menu, .open-menu .submenu-scroll .three-coll .coll.buttons-menu{
+        width: 100%;
+        display: block;
+    }
+    .fixed.open-menu .submenu-scroll .three-coll .coll.buttons-menu li, .open-menu .submenu-scroll .three-coll .coll.buttons-menu li{
+        width: 50% !important;
+        float: left;
+        padding-right: 5%;
+        box-sizing: border-box;
+    }
+    .fixed.open-menu .submenu-scroll .three-coll .coll.buttons-menu li:last-child, .open-menu .submenu-scroll .three-coll .coll.buttons-menu li:last-child{
+        padding-left: 5%;
+        padding-right: 0;
+    }
+    .open-menu .inner-header .container-right .bottom nav ul.list-menu, .open-menu.fixed .main-header .container-right .bottom nav ul.list-menu{
+        width: 80%;
+    }
+    .product-banner .text-center h2{
+        font-size: 45px;
+    }
+    .product-banner .mask{
+        width: 100%;
+    }
+    .product-banner, .product-banner .gallery, .product-banner #gallery, .product-banner #gallery .scroll-content figure, .product-banner .mask {
+        height: 600px;
+    }
+    .product-banner .text-center {
+        padding-top: 420px;
+    }
+    .product-banner .text-center h2{
+        line-height: 60px;
+    }
+
+    .inner-header .container .container-left, .fixed .main-header .container .container-left{
+        width: 35%;
+    }
+    .inner-header .container .container-right, .fixed .main-header .container .container-right{
+        width: 65%;
+    }
+    .open-menu .inner-header .container .container-left, .open-menu.fixed .main-header .container .container-left{
+        display: none;
+    }
+    .open-menu .inner-header .container .container-right, .open-menu.fixed .main-header .container .container-right{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px){
+    .find .container .button-white {
+        margin-right: 0;
+        float: none;
+        margin-bottom: 30px;
+        width: 220px;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .info .next-buy h2{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .info .next-buy p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .form-container .input.double{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .form-container .input.double:nth-child(2n){
+        width: 100%;
+        padding-left: 0;
+    }
+    footer .container .home-footer,
+    footer .container .product-footer{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 520px){
+    .fixed.open-menu .submenu-scroll .three-coll .coll.buttons-menu li, .open-menu .submenu-scroll .three-coll .coll.buttons-menu li{
+        width: 100% !important;
+        float: left;
+        padding-right: 0;
+        box-sizing: border-box;
+    }
+    .fixed.open-menu .submenu-scroll .three-coll .coll.buttons-menu li:last-child, .open-menu .submenu-scroll .three-coll .coll.buttons-menu li:last-child{
+        padding-left: 0%;
+        padding-right: 0;
+    }
+    fixed.open-menu .submenu-scroll .three-coll .coll.buttons-menu, .open-menu .submenu-scroll .three-coll .coll.buttons-menu{
+        margin-top: 30px;
+    }
+    .fixed.open-menu .submenu-scroll .three-coll, .open-menu .submenu-scroll .three-coll{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 500px){
+    .home-products .button-white {
+        bottom: 30px;
+    }
+    .home-products li:hover h2{
+        margin-top: 80px;
+    }
+    .home-products .button-white {
+        padding: 10px 0;
+        width: 200px;
+    }
+    .home-products li p {
+        line-height: 20px;
+        margin-top: 30px;
+    }
+    .blog-inner .container .date, .blog .container .date{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .blog-inner .container .text, .blog .container .text{
+        width: 100%;
+        padding: 0;
+    }
+    .blog-inner .container .date .box, .blog .container .date .box{
+        max-width: 90px;
+    }
+    .home-banner .text-center h2 {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+    .home-banner .text-center p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 30px;
+    }
+    .button-white {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 15px 20px;
+    }
+    .arrows span.arrow {
+        height: 40px;
+        width: 40px;
+    }
+    .home-banner, .mask-home, .home-banner .gallery{
+        height: 800px;
+    }
+
+    .main-header .container-left{
+        width: 40%;
+    }
+    .main-header .container-left .logo a,
+    .main-header .container-left .logo{
+        height: 100px;
+    }
+    .main-header .container-right {
+        padding-left: 15px;
+        width: 60%;
+    }
+    .product-banner .text-center h2{
+        font-size: 45px;
+    }
+    .product-banner .mask{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px){
+    .enviar {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-top: 50px;
+        padding: 15px 60px;
+        text-transform: uppercase;
+    }
+    .home-blog .container li figure {
+        height: 250px;
+    }
+    .home-blog .container li .text{
+        width: 100%;
+        padding-left: 0;
+    }
+    .home-blog .container li .date{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .home-blog .container li .date .box{
+        max-width: 90px;
+    }
+    .home-blog .container .button-right .button-navy {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    .home-blog .container header h2 {
+        font-size: 40px;
+    }
+    .home-banner .button-float {
+        right: 30px;
+        bottom: 30px;
+    }
+    .home-banner .button-float .button-navy {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px 15px;
+    }
+    .product-banner .text-center h2 {
+        font-size: 35px;
+    }
+    .about-banner .text-center h2{
+        font-size: 30px;
+    }
+    .about-movelmar .text h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .about-partners .container h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .home-about .text .container h2, .about-gallery .text .container h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .info .next-buy h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .main-header .container-right{
+        padding: 0;
+    }
+    .inner-header .container-right .bottom nav, .fixed .main-header .container-right .bottom nav {
+        padding: 0 15px;
+    }
+    .inner-header .container-right .bottom nav .list-menu li, .fixed .main-header .container-right .bottom nav .list-menu li{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 400px){
+    .find .container h2 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .find .container p{
+        font-size: 18px;
+    }
+    .find .container .button-white {
+        width: 180px;
+    }
+    .home-about .text .container h2 {
+        font-size: 32px;
+    }
+    .home-about .text .container p {
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+    .info .container-left .logista h3, .info .container-left .representatives h3{
+        font-size: 22px;
+    }
+    .button-blue{
+        font-size: 16px;
+    }
+
+    .inner-header .container .container-left, .fixed .main-header .container .container-left{
+        width: 45%;
+    }
+    .inner-header .container .container-right, .fixed .main-header .container .container-right{
+        width: 55%;
+    }
+    .open-menu .inner-header .container .container-left, .open-menu.fixed .main-header .container .container-left{
+        display: none;
+    }
+    .open-menu .inner-header .container .container-right, .open-menu.fixed .main-header .container .container-right{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px){
+    .fixed.open-menu .submenu-scroll .three-coll .coll, .open-menu .submenu-scroll .three-coll .coll{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 300px){
+    .home-banner .button-float {
+        right: auto;
+        bottom: auto;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    footer .container .about-us p{
+        font-size: 14px;
+    }
+}

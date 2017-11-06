@@ -1,0 +1,76 @@
+body {
+    background-color: #888;
+}
+.login-container img {
+    margin-bottom: 20px;
+}
+.manterlogado{
+    font-size: 14px;
+    color: #fff;
+}
+.manterlogado label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.resetpass{
+    margin-top: 10px;
+    margin-left: -13px;
+    font-size: 15px;
+	color: #008;
+    text-decoration: underline;    
+}
+.resetpass:hover{
+	color: #000;
+}
+.tb {
+    width: 300px;
+}
+.submitbtn {
+    border: none;
+    /* cor oficial movelmar #f26651 */
+    background: #f26651;  
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 3px 0 #a72121;
+    padding: 10px 25px;
+    width: 300px;
+}
+.submitbtn:hover {
+    background: #e04735;
+    box-shadow: 0 3px 0 #6f1212;
+    color: #000;
+}
+.submitbtn:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
+
+.login-container {
+    margin: 100px auto 0 auto;
+    /* background-color: #888; */
+    /* background: #fff; */
+    width: 300px;
+    
+}
+.login-container .form-group label{
+    font-size: 17px;
+    color: #fff;
+}
+/* Inputs de texto */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 304px; 
+    padding: 20px;
+    font-size: 16px;
+    border: 2px solid #888;
+    /* desconta a borda para alinhar com o resto */
+    margin: -2px;
+}
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    border: 2px solid #19b5fe;
+    box-shadow: 0 0 5px #9fe0fe;
+    /* desconta a borda para alinhar com o resto */
+    margin: -2px;
+}

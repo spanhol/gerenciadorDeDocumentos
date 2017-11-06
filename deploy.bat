@@ -1,0 +1,1 @@
+git clone Q:\GerenciadorDeDocumentosDeploing
