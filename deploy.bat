@@ -1,1 +1,1 @@
-git clone Q:\GerenciadorDeDocumentosDeploing
+git commit -a -m "commit"
