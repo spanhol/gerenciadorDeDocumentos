@@ -53,7 +53,7 @@ module.exports.listar = function (campos, where, callback) {
 
 module.exports.sugestoes = function (palavra, callback) {
     if (palavra && palavra != "") {
-        keywordsCrud.filterWhere("word", "word", "like", "%" + palavra + "%", 5, function (err, palavras) {
+        keywordsCrud.filterWhere("word", "word", "ilike", "%" + palavra + "%", 5, function (err, palavras) {
             callback(err, palavras);
         });
     } else {

@@ -1,3 +1,3 @@
-git commit -a -m "commit"
-#TODO descobrir como rodar isto
-git push --set-upstream producao master
+git add *
+git commit -a -m "commit automatico"
+git push producao master
