@@ -1,5 +1,10 @@
-var env = 'development';
+// var env = 'development';
+var express = require('express');
 var path = require('path');
+var app = express();
+
+console.log("ENV: " + app.settings.env);
+var env = app.settings.env;
 
 var config = {
     production: {
