@@ -4,11 +4,12 @@ var crud = require('./crud');
 
 
 documentosCrud.saveDocumento = function (documento, callback) {
-    documento.created_at = knex.CURRENT_TIMESTAMP;
+    // documento.created_at = knex.CURRENT_TIMESTAMP;
+    documento.created_at = Date.now();
     knex('documentos').insert(documento).returning('id').then(function (id) {
         if (id && id[0]) {
-            console.log("salvo documento: ")
-            console.log(documento);
+            // console.log("salvo documento: ")
+            // console.log(documento);
             callback(null, id[0]);
         } else {
             callback('ERRO ao inserir dados no banco de dados', null);

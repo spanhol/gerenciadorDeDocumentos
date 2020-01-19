@@ -19,7 +19,7 @@ router.get('/:id/download', ensureAuthenticated, function (req, res) {
 	var uploadDir = config.getUploadDir(__dirname);
 	Documento.getDocumentoById(req.params.id, function (err, documento) {
 		if (documento) {
-			console.log(documento);
+			// console.log(documento);
 			if (uploadDir) {
 				var file = uploadDir + '/' + Documento.getFileName(documento);
 				console.log("uploadDir " + file);

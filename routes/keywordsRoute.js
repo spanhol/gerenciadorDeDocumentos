@@ -38,7 +38,7 @@ router.get('/:k', ensureAuthenticated, function (req, res) {
 		var docs = result.rows;
 		lista = [];
 		temKeyword = false;
-		console.log("CAllback " + key[0]  + "DOC len " + docs.length);
+		// console.log("Callback " + key[0]  + " DOC len " + docs.length);
 		for (var i = 0; i < docs.length; i++) {
 			item = {}
 			item.id = docs[i].id;
@@ -46,18 +46,19 @@ router.get('/:k', ensureAuthenticated, function (req, res) {
 			item.data = docs[i].updated_at;
 			item.tipo = docs[i].tipo;
 			item.keywords = docs[i].keywords;
-			console.log("KEY " + key[0]);
-			for (var i = 0; i < item.keywords.length; i++) {
-				if (item.keywords[i] == key[0]){
+			// console.log("KEY " + key[0]);
+			for (var j = 0; j < item.keywords.length; j++) {
+				if (item.keywords[j] == key[0]){
 					temKeyword = true;
 					break;
 				}
 			}
 			if (temKeyword){
 				lista.push(item);
-				console.log("item " + item);
+				//console.log("item " + item);
 			}
 		}
+		
 		res.render('documentos', { documentos: lista, arquivo: true });
 	});
 });
