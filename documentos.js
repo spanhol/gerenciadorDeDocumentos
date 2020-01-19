@@ -18,6 +18,8 @@ var routes = require('./routes/indexRoute');
 var documentos = require('./routes/documentosRoute');
 var doc = require('./routes/docRoute');
 var users = require('./routes/usersRoute');
+var keywords = require('./routes/keywordsRoute');
+
 
 var documentoshelper = require('./helpers/documentosHelper');
 
@@ -90,6 +92,7 @@ app.use('/', routes);
 app.use('/users', users);
 app.use('/documentos', documentos);
 app.use('/documento', doc);
+app.use('/keyword', keywords);
 
 // Set Port
 if (config.env == 'development') {

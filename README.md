@@ -1,3 +1,8 @@
+#logins: 
+usuario rh rhdocumentos
+
+login and registration app using Node.js, Express, Passport and Mongoose. It is part of the YouTube series [here](https://www.youtube.com/watch?v=Z1ktxiqyiLA)
+=======
 # Gerenciador De Documentos Genericos
 
 ### Version
