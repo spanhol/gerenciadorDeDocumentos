@@ -102,6 +102,6 @@ if (config.env == 'production') {
 }
 
 app.listen(app.get('port'), function () {
-  console.log(Date.now());
+  console.log(new Date().toLocaleDateString())
   console.log('Server started on port ' + app.get('port'));
 });
