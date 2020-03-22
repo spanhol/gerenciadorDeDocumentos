@@ -3,7 +3,8 @@ var knex = require('../db/db');
 var crud = require('./crud');
 
 keywordsCrud.saveKeyword = function (keyword, callback) {
-    keyword.created_at = knex.CURRENT_TIMESTAMP;
+    // keyword.created_at = knex.CURRENT_TIMESTAMP;
+    keyword.created_at = Date.now();
     knex('keyword').insert(keyword).returning('id').then(function (id) {
         if (id) {
             console.log("keyword criada:");
