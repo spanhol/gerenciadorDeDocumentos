@@ -46,8 +46,9 @@ router.post('/upload', function (req, res) {
 		var doc = new Documento(
 			file.name,
 			file.type,
-			file.lastModifiedDate,
+			file.created_at,
 			file.lastModifiedDate);
+
 		Documento.createDocumento(doc, function (err, id) {
 			if (err) {
 				console.log("err 1");
@@ -60,6 +61,8 @@ router.post('/upload', function (req, res) {
 						console.log(doc);
 						//trata erro
 					} else {
+						console.log("get documento by id: " + doc.id);
+						console.log(doc);
 						var filename = doc.id + "_" + file.name;
 						// every time a file has been uploaded successfully rename it
 						fs.rename(file.path, path.join(form.uploadDir, filename));

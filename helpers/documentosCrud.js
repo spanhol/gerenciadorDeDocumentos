@@ -5,7 +5,8 @@ var crud = require('./crud');
 
 documentosCrud.saveDocumento = function (documento, callback) {
     // documento.created_at = knex.CURRENT_TIMESTAMP;
-    documento.created_at = Date.now();
+    documento.created_at = new Date().toISOString();
+    documento.updated_at = new Date().toISOString();
     knex('documentos').insert(documento).returning('id').then(function (id) {
         if (id && id[0]) {
             // console.log("salvo documento: ")
