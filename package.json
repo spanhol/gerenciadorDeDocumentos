@@ -1,7 +1,7 @@
 {
-  "name": "loginapp",
+  "name": "documentos",
   "version": "1.0.0",
-  "description": "Simple authentication system",
+  "description": "Upload e organização de documentos",
   "main": "documentos.js",
   "scripts": {
     "start": "node documentos.js",
@@ -20,7 +20,9 @@
     "express-validator": "*",
     "formidable": "^1.2.1",
     "hbs": "^4.1.0",
-    "knex": "^0.19.5",
+    //"minimist": ">=1.2.2", só é usado por hbs
+    "minimist": ">=1.2.2",
+    "knex": "*",
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*",

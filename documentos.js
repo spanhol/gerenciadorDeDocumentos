@@ -20,7 +20,6 @@ var doc = require('./routes/docRoute');
 var users = require('./routes/usersRoute');
 var keywords = require('./routes/keywordsRoute');
 
-
 var documentoshelper = require('./helpers/documentosHelper');
 
 
@@ -103,5 +102,5 @@ if (config.env == 'production') {
 }
 
 app.listen(app.get('port'), function () {
-  console.log('Server started on port ' + app.get('port'));
+  console.log('Server started on port ' + app.get('port')) + " on " + now();
 });
