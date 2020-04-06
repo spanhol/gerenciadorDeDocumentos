@@ -20,7 +20,7 @@
     "express-validator": "*",
     "formidable": "^1.2.1",
     "hbs": "^4.1.0",
-    "minimist": ">=1.2.2",
+    "minimist": ">=1.2.3",
     "knex": "*",
     "passport": "*",
     "passport-http": "*",
