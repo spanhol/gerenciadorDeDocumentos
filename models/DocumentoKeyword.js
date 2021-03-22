@@ -1,4 +1,4 @@
-var documentoKeywordCrud = require('../helpers/DocumentoKeywordCrud');
+var documentoKeywordCrud = require('../helpers/documentoKeywordCrud');
 
 'use strict';
 
@@ -16,9 +16,9 @@ module.exports.createDocumentoKeyword = function (newDocumentoKeyword, callback)
     });
 };
 
-module.exports.getDocumentoKeywordById = function (documento_id, keyword_id, callback) {
-    documentoKeywordCrud.findById(documento_id, keyword_id, function (err, doc_key) {
-        callback(err, doc_key);
+module.exports.getKeywordByDocumentoId = function (documento_id, callback) {  
+    documentoKeywordCrud.findByDocumentoId(documento_id, function (err, keywords) {
+        callback(err, keywords);
     });
 }
 

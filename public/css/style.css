@@ -7,6 +7,11 @@ body {
   /* font-size: 1.5em; */
 }
 
+.botao-editar {
+  float: left;
+  color: #fff;
+}
+
 a, a:link, a:visited {
   text-decoration: none;
   color: #000;
