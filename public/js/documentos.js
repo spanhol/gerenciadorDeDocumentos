@@ -88,6 +88,9 @@ function showDocumentos() {
             var id = query.rows[i].id;
             var kw = query.rows[i].keywords;
             var doc = "<div class=\"card card-1\">\n"
+                + "<a style=\"color: #fff\" class=\"btn btn-primary botao-editar\" href=\"\\documento\\" + id + "\">"
+                + "EDITAR"
+                + "</a>"
                 + "<a href=\"\\documento\\" + id + "\\download\">"
                 + nome
                 + "</a>"

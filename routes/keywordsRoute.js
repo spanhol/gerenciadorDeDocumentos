@@ -4,14 +4,36 @@ var formidable = require('formidable');
 var path = require('path');
 var fs = require('fs');
 var config = require('../config');
-var Documento = require('../models/documentos');
+var Documentos = require('../models/documentos');
 
 
-// Get lista de documentos
+// Get lista de keywords
 router.get('/', ensureAuthenticated, function (req, res) {
 	console.log("get /keyword");
+	res.render('documentos', { documentos: [], arquivo: true });
+
+	/*var lista = [];
+	Documentos.listar([], {}, function (err, result) {
+		var docs = result.rows;
+		lista = [];
+		for (var i = 0; i < docs.length; i++) {
+			item = {}
+			item.id = docs[i].id;
+			item.nome = docs[i].nome;
+			item.data = docs[i].updated_at;
+			item.tipo = docs[i].tipo;
+			item.keywords = docs[i].keywords;
+			lista[i] = item;
+		}
+		res.render('documentos', { documentos: lista, arquivo: true });
+	});*/
+});
+
+// Get lista de keywords --não implementado
+router.get('/', ensureAuthenticated, function (req, res) {
+	console.log("get /keyword/:p");
 	var lista = [];
-	Documento.listar([], {}, function (err, result) {
+	Documentos.listar([], {}, function (err, result) {
 		var docs = result.rows;
 		lista = [];
 		for (var i = 0; i < docs.length; i++) {
@@ -33,7 +55,7 @@ router.get('/:k', ensureAuthenticated, function (req, res) {
 	var key = [];
 	key.push(req.params.k);
 	var lista = [];
-	Documento.filterByKeywords(key, 1000, 0, function (err, result) {
+	Documentos.filterByKeywords(key, 1000, 0, function (err, result) {
 		
 		var docs = result.rows;
 		lista = [];

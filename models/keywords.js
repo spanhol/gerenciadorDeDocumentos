@@ -61,8 +61,14 @@ module.exports.sugestoes = function (palavra, callback) {
     }
 }
 
-module.exports.listarIn = function (select, whereIn, callback) {
-    keywordsCrud.filterin(select, whereIn, function (err, palavras) {
+module.exports.listarWordIn = function (select, whereIn, callback) {
+    keywordsCrud.filterWordIn(select, whereIn, function (err, palavras) {
+        callback(err, palavras);
+    });
+}
+
+module.exports.listarIn = function (select, whereColum, arrayIn, callback) {
+    keywordsCrud.filterIn(select, whereColum, arrayIn, function (err, palavras) {
         callback(err, palavras);
     });
 }

@@ -1,6 +1,6 @@
 var documentosCrud = require('../helpers/documentosCrud');
 var Keywords = require('../models/keywords');
-var DocumentoKeyword = require('../models/DocumentoKeyword');
+var DocumentoKeyword = require('./documentoKeyword');
 
 'use strict';
 

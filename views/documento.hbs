@@ -1,0 +1,18 @@
+<div class="cardcontainer">
+    <div id="documento">
+        Arquivo: <b> {{documento.nome}}</b><br>
+    </div>
+    <br>
+    <form action="/documento/{{documento.id}}" method="post" enctype="multipart/form-data">
+    <label id="keywords-label" for="keywords-input">Palavras Chave</label>
+    <input class="form-control" id="keywords-input" type="text" name="keywords" value="{{keywords}}">
+    <div id="keywords-div">
+    </div>
+    <div>
+        <ul id="select_keywords" class="nav nav-pills">
+        </ul>
+    </div>
+    <br>
+    <input class="btn btn-default" id="upload-input" type="submit" value="Salvar">
+    </form>
+</div>

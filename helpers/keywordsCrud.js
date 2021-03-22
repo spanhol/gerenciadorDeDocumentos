@@ -39,7 +39,17 @@ keywordsCrud.filterWhere = function (select, coluna, operador, valor, limit, cal
     });
 }
 
-keywordsCrud.filterIn = function (select, whereIn, callback) {
+keywordsCrud.filterIn = function (select, whereColum, arrayIn, callback) {
+    crud.findIn('keyword', select, whereColum, arrayIn, function (err, result) {
+        var novoErro = err;
+        if (err) {
+            novoErro = { message: 'keyword não encontrado.' };
+        }
+        callback(novoErro, result);
+    });
+}
+
+keywordsCrud.filterWordIn = function (select, whereIn, callback) {
     crud.findIn('keyword', select, "word", whereIn, function (err, result) {
         var novoErro = err;
         if (err) {

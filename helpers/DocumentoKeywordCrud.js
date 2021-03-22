@@ -9,8 +9,8 @@ documentoKeywordCrud.saveDocumentoKeyword = function (documentoKeyword, callback
     });
 };
 
-documentoKeywordCrud.findByDocumentoId = function (id, callback) {
-    crud.find('documento_keyword', { documento_id: id }, function (err, result) {
+documentoKeywordCrud.findByDocumentoId = function (doc_id, callback) {
+    crud.find('documento_keyword', "keyword_id" ,{ documento_id: doc_id }, function (err, result) {
         var novoErro = err;
         if (err) {
             novoErro = { message: 'documento_keyword não encontrado.' };
