@@ -19,7 +19,7 @@
     "express-session": "*",
     "express-validator": "*",
     "formidable": "^1.2.1",
-    "hbs": "^4.1.1",
+    "hbs": "^4.1.2",
     "knex": "*",
     "minimist": "^1.2.5",
     "passport": "*",
